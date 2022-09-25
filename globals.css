@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Cabin";
+  src: url("./fonts/Cabin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LibreBaskerville";
+  src: url("./fonts/LibreBaskerville.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Nunito";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: "#333333";
+  }
+}
