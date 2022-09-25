@@ -1,0 +1,115 @@
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.subtitle {
+  margin: 2rem 0;
+  font-family: "LibreBaskerville";
+  font-style: italic;
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 2rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.bio {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0 2rem 0;
+  border-bottom: 2px solid white;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 350px;
+  max-width: 300px;
+}
+
+.tidbitContainer {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tidbit {
+  margin: 0.25rem 0;
+}
+
+.proficiencies {
+  width: 90%;
+}
+
+.skillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skillContainer h3 {
+  margin: 0 1rem;
+}
+@media (max-width: 800px) {
+  .bio {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .card {
+    margin: 2rem 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
