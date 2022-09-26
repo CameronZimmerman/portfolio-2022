@@ -27,6 +27,7 @@ const Header: React.FC = () => {
             return setMenuOpen(true);
           }}
           className={styles.list}
+          aria-label="Dropdown Menu Button"
         />
       </div>
       <div className={`${styles.socials} ${styles.link}`}>
@@ -35,14 +36,14 @@ const Header: React.FC = () => {
           rel="noreferrer"
           href="https://www.linkedin.com/in/cameron-zimmerman/"
         >
-          <LinkedinLogo size={48} />
+          <LinkedinLogo size={48} aria-label="LinkedIn button link" />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://github.com/CameronZimmerman"
         >
-          <GithubLogo size={48} />
+          <GithubLogo size={48} aria-label="Github button link" />
         </a>
       </div>
       <nav
