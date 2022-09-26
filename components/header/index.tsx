@@ -57,7 +57,7 @@ const Header: React.FC = () => {
           onClick={() => setMenuOpen(false)}
         >
           <Link href="/">Landing</Link>
-          <Link href="/resume">Resume</Link>
+          <Link href="/resume.pdf">Resume</Link>
           <Link href="/projects">Projects</Link>
           <Link href="/contact">Contact</Link>
         </section>
